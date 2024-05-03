@@ -108,8 +108,3 @@ LEFT JOIN ingredients AS i
 ON r.ing_id = i.ing_id
 group by it.sku;
 
-
-drop table orders;
-drop table items;
-drop table ingredients;
-drop table recipe;
